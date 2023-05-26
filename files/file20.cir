@@ -1,0 +1,32 @@
+*SSH circuit netlist with N = 10
+
+*sources
+vin 1 0 SINE() AC 1
+
+*capacitors
+c1 0 1 1e-07
+c2 1 2 2e-07
+c3 2 3 1e-07
+c4 3 4 2e-07
+c5 4 5 1e-07
+c6 5 6 2e-07
+c7 6 7 1e-07
+c8 7 8 2e-07
+c9 8 9 1e-07
+c10 9 10 2e-07
+
+ *inductors
+l1 1 0 1e-5
+l2 2 0 1e-5
+l3 3 0 1e-5
+l4 4 0 1e-5
+l5 5 0 1e-5
+l6 6 0 1e-5
+l7 7 0 1e-5
+l8 8 0 1e-5
+l9 9 0 1e-5
+l10 10 0 1e-5
+
+ * directive
+.ac lin 10000 100e3 200e3
+.end
