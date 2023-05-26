@@ -12,4 +12,5 @@ Procedure:
 Refreances:
 
 [1.] Lee, Ching Hua, et al. "Topolectrical circuits." Communications Physics 1.1 (2018): 39.
+
 [2.] Su, W_P, J. R. Schrieffer, and Ao J. Heeger. "Solitons in polyacetylene." Physical review letters 42.25 (1979): 1698.
